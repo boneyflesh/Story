@@ -6,30 +6,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="scene opening">
+    <section id="scene1" class="scene" style="display: none;">
         <h2>Once upon a time...</h2>
         <p>Two paths crossed, and everything changed.</p>
+        <button class="nextBtn" data-target="scene2">
+            Next
+            <img src="images/icons/cat.png" alt="nonmem">
+        </button>
     </section>
 
-    <section class="scene memory">
+    <section id="scene2" class="scene" style="display: none;">
         <h2>Our First Adventure</h2>
         <p>Do you remember that day? Th laughter, the litte surprises...</p>
         <img src="images/pic1.JPG" alt="First Adventure">
+        <button class="nextBtn" data-target="scene2">
+            Next
+            <img src="images/icons/cat.png" alt="mem1">
+        </button>
     </section>
 
-    <section class="scene joy">
+    <section id="scene3" class="scene" style="display: none;">
         <h2>Everyday Magic</h2>
         <p>Every moment with you became a memory worth keeping.</p>
         <img src="images/pic1.JPG" alt="Coffee Together">
+        <button class="nextBtn" data-target="scene2">
+            Next
+            <img src="images/icons/cat.png" alt="mem1">
+        </button>
     </section>
 
-    <section class="scene turning">
+    <section id="scene4" class="scene" style="display: none;">
         <h2>You're My Favorite Story</h2>
         <p>And then, I realized... you're my forever.</p>
         <img src="images/pic1.JPG" alt="Starry Night">
+        <button class="nextBtn" data-target="scene2">
+            Next
+            <img src="images/icons/cat.png" alt="mem1">
+        </button>
     </section>
 
-    <section class="scene button">
+    <section id="scene5" class="scene" style="display: none;">
         <button id="revealBtn">Click to unlock your birthday surprise 🎁</button>
     </section>
 

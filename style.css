@@ -8,7 +8,6 @@ body {
 
 .scene {
     padding: 60px 20px;
-    transition: all ls ease-in-out;
 }
 
 .opening {
@@ -50,6 +49,31 @@ button {
     border-radius: 10px;
     cursor: pointer;
     animation: pulse 2s infinite;
+}
+
+.nextBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.nextBtn img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.nextBtn:hover {
+    transform: scale(1.05);
 }
 
 @keyframes pulse {
