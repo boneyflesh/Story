@@ -1,9 +1,46 @@
 body {
     font-family: 'Arial', sans-serif;
+    background: #fff0f5;
+    margin: 0;
+    padding: 0;
     text-align: center;
+}
+
+.scene {
+    padding: 60px 20px;
+    transition: all ls ease-in-out;
+}
+
+.opening {
     background: linear-gradient(to bottom, #ffe0f0, #fff);
 }
 
+.memmory {
+    background: #fdf6e3;
+}
+
+.joy {
+    background: #e0f7fa;
+}
+
+.turning {
+    background: #ede7f6;
+}
+
+.button {
+    background: #fff8e1;
+}
+
+.reveal {
+    background: #ffebee;
+}
+
+img {
+    max-width: 80%;
+    margin-top: 20px;
+    border-radius: 10px;
+    animation: fadeIn 2s ease-in; 
+}
 button {
     padding: 15px 25px;
     font-size: 18px;
@@ -21,11 +58,6 @@ button {
     100% { transform: scale(1); }
 }
 
-#photoReveal img {
-    max-width: 80%;
-    margin-top: 20px;
-    animation: fadeIn 2s ease-in;
-}
 
 @keyframes fadeIn{
     from { opacity: 0; }

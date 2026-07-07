@@ -2,22 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Happy Birthday!</title>
+    <title>Our Story</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="story">
-        <h2>Our Story</h2>
-        <p>Once upon a time...</p>
-        <!--Add more details-->
-    </div>
+    <section class="scene opening">
+        <h2>Once upon a time...</h2>
+        <p>Two paths crossed, and everything changed.</p>
+    </section>
 
-    <button id="revealBtn">Click to unlock your birthday surprise 🎁</button>
+    <section class="scene memory">
+        <h2>Our First Adventure</h2>
+        <p>Do you remember that day? Th laughter, the litte surprises...</p>
+        <img src="images/pic1.JPG" alt="First Adventure">
+    </section>
 
-    <div id="photoReveal" style="display:none;">
+    <section class="scene joy">
+        <h2>Everyday Magic</h2>
+        <p>Every moment with you became a memory worth keeping.</p>
+        <img src="images/pic1.JPG" alt="Coffee Together">
+    </section>
+
+    <section class="scene turning">
+        <h2>You're My Favorite Story</h2>
+        <p>And then, I realized... you're my forever.</p>
+        <img src="images/pic1.JPG" alt="Starry Night">
+    </section>
+
+    <section class="scene button">
+        <button id="revealBtn">Click to unlock your birthday surprise 🎁</button>
+    </section>
+
+    <section id="photoReveal" class="scene reveal" style="display: none;">
         <img src="images/pic1.JPG" alt="Special Memory">
-        <h2>Happy Birthday my love ❤️</h2>
-    </div>
+        <h2>Happy Birthday, my Bibi ❤️</h2>
+    </section>
 
     <script src="script.js"></script>
 </body>
