@@ -5,7 +5,10 @@ window.onload = function() {
 document.querySelectorAll(".nextBtn").forEach(button => {
     button.addEventListener("click", function() {
         const targetId = this.getAttribute("data-target");
-        document.getElementById(targetId).style.display = "block";
+        console.log(targetId);
+        if (targetId) {
+            document.getElementById(targetId).style.display = "block";
+        }
         this.style.display = "none"
     })
 });
