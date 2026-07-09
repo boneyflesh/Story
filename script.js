@@ -30,6 +30,8 @@ document.getElementById("revealBtn").addEventListener("click", function() {
     document.getElementById("photoReveal").style.display = "block";
     this.style.display = "none";
 
+    document.getElementById("photoReveal").scrollIntoView({ behavior: "smooth", block: "start"});
+    
     // Confetti burst
     const duration = 3 * 1000;
     const end = Date.now() + duration;
