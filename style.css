@@ -25,7 +25,13 @@ img {
     animation: fadeIn 2s ease-in; 
 }
 
-
+.caption {
+    font-size: 18px;
+    font-style: italic;
+    color: #b03060;
+    margin-top: 10px;
+    animation: fadeIn 2s ease-in;
+}
 
 .nextBtn {
     display: flex;

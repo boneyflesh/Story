@@ -32,7 +32,11 @@
     <section id="scene3" class="scene" style="display: none;">
         <h2>Everyday Magic</h2>
         <p>Every moment with you became a memory worth keeping.</p>
-        <img class="pic" src="images/onsen.JPG" alt="Together1">
+        <figure>
+            <img class="pic" src="images/onsen.JPG" alt="Together1">
+            <figcaption class="caption">Our cozy onsen day 💕</figcaption>
+        </figure>
+        
 
         <button class="nextBtn" data-target="scene4">
             <img src="images/icons/cat.png" alt="mem2">
@@ -41,7 +45,10 @@
     </section>
 
     <section id="scene4" class="scene" style="display: none;">
-        <img class="pic" src="images/smile.jpg" alt="Together2">
+        <figure>
+            <img class="pic" src="images/smile.jpg" alt="Together2">
+            <figcaption class="caption">Look at that smile 💕</figcaption>
+        </figure>
 
         <button class="nextBtn" data-target="scene5">
             <img src="images/icons/cat.png" alt="mem2">
@@ -50,7 +57,11 @@
     </section>
 
     <section id="scene5" class="scene" style="display: none;">
-        <img class="pic" src="images/cute.jpg" alt="Together3">
+        <figure>
+            <img class="pic" src="images/cute.jpg" alt="Together3">
+            <figcaption class="caption">Cutie patootie 💕</figcaption>
+        </figure>
+        
 
         <button class="nextBtn" data-target="scene6">
             <img src="images/icons/cat.png" alt="mem2">
@@ -76,8 +87,10 @@
     <section id="photoReveal" class="scene" style="display: none;">
         <img src="images/flower.jpg" alt="Special Memory">
         <h2>Happy Birthday, my Bibi ❤️</h2>
+        <p id="secretMessage" style="display:none;">I can’t wait for all our tomorrows 💕</p>
     </section>
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 </body>
 </html>
